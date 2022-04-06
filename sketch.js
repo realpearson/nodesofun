@@ -1,3 +1,8 @@
+window.addEventListener('click', async ()=> {
+  await Tone.start();
+}, {once : true});
+
+
 let numNodes = 5;
 let snodes = [];
 let flyer;
